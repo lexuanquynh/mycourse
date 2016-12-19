@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Phần mềm học lập trình C++</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="mainTabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1021</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <property name="tabsClosable">
+     <bool>true</bool>
+    </property>
+    <property name="movable">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuCourse">
+    <property name="title">
+     <string>Thông tin cá nhân</string>
+    </property>
+    <addaction name="actionT_ng_nh_b_n"/>
+    <addaction name="separator"/>
+    <addaction name="actionH_c_B"/>
+    <addaction name="actionTHo_t"/>
+   </widget>
+   <widget class="QMenu" name="menuL_thuy_t_l_p_tr_nh_C">
+    <property name="title">
+     <string>Lý thuyết lập trình C++</string>
+    </property>
+    <addaction name="actionB_i_1"/>
+    <addaction name="actionB_i_2"/>
+    <addaction name="actionB_i_3"/>
+    <addaction name="actionB_i_4"/>
+    <addaction name="actionB_i_5"/>
+    <addaction name="actionB_i_6"/>
+    <addaction name="actionB_i_7"/>
+    <addaction name="actionB_i_8"/>
+    <addaction name="actionB_i_9"/>
+    <addaction name="actionB_i_10"/>
+   </widget>
+   <widget class="QMenu" name="menuB_i_t_p_l_p_tr_nh_C">
+    <property name="title">
+     <string>Bài tập lập trình C++</string>
+    </property>
+    <addaction name="actionB_i_11"/>
+    <addaction name="actionB_i_12"/>
+    <addaction name="actionB_i_13"/>
+    <addaction name="actionB_i_14"/>
+    <addaction name="actionB_i_15"/>
+    <addaction name="actionB_i_16"/>
+    <addaction name="actionB_i_17"/>
+    <addaction name="actionB_i_18"/>
+    <addaction name="actionB_i_19"/>
+    <addaction name="actionB_i_20"/>
+   </widget>
+   <widget class="QMenu" name="menuC_ng_ng">
+    <property name="title">
+     <string>Cộng đồng</string>
+    </property>
+    <addaction name="actionTop_10"/>
+    <addaction name="actionChat_group"/>
+   </widget>
+   <widget class="QMenu" name="menuTh_ng_tin_ph_n_m_m">
+    <property name="title">
+     <string>Thông tin phần mềm</string>
+    </property>
+    <addaction name="actionT_c_gi"/>
+    <addaction name="actionDonate"/>
+   </widget>
+   <addaction name="menuCourse"/>
+   <addaction name="menuL_thuy_t_l_p_tr_nh_C"/>
+   <addaction name="menuB_i_t_p_l_p_tr_nh_C"/>
+   <addaction name="menuC_ng_ng"/>
+   <addaction name="menuTh_ng_tin_ph_n_m_m"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionT_ng_nh_b_n">
+   <property name="text">
+    <string>Tường nhà bạn</string>
+   </property>
+  </action>
+  <action name="actionH_c_B">
+   <property name="text">
+    <string>Học Bạ</string>
+   </property>
+  </action>
+  <action name="actionTHo_t">
+   <property name="text">
+    <string>Thoát</string>
+   </property>
+  </action>
+  <action name="actionB_i_1">
+   <property name="text">
+    <string>Bài 1</string>
+   </property>
+  </action>
+  <action name="actionB_i_2">
+   <property name="text">
+    <string>Bài 2</string>
+   </property>
+  </action>
+  <action name="actionB_i_3">
+   <property name="text">
+    <string>Bài 3</string>
+   </property>
+  </action>
+  <action name="actionB_i_4">
+   <property name="text">
+    <string>Bài 4</string>
+   </property>
+  </action>
+  <action name="actionB_i_5">
+   <property name="text">
+    <string>Bài 5</string>
+   </property>
+  </action>
+  <action name="actionB_i_6">
+   <property name="text">
+    <string>Bài 6</string>
+   </property>
+  </action>
+  <action name="actionB_i_7">
+   <property name="text">
+    <string>Bài 7</string>
+   </property>
+  </action>
+  <action name="actionB_i_8">
+   <property name="text">
+    <string>Bài 8</string>
+   </property>
+  </action>
+  <action name="actionB_i_9">
+   <property name="text">
+    <string>Bài 9</string>
+   </property>
+  </action>
+  <action name="actionB_i_10">
+   <property name="text">
+    <string>Bài 10</string>
+   </property>
+  </action>
+  <action name="actionB_i_11">
+   <property name="text">
+    <string>Bài 1</string>
+   </property>
+  </action>
+  <action name="actionB_i_12">
+   <property name="text">
+    <string>Bài 2</string>
+   </property>
+  </action>
+  <action name="actionB_i_13">
+   <property name="text">
+    <string>Bài 3</string>
+   </property>
+  </action>
+  <action name="actionB_i_14">
+   <property name="text">
+    <string>Bài 4</string>
+   </property>
+  </action>
+  <action name="actionB_i_15">
+   <property name="text">
+    <string>Bài 5</string>
+   </property>
+  </action>
+  <action name="actionB_i_16">
+   <property name="text">
+    <string>Bài 6</string>
+   </property>
+  </action>
+  <action name="actionB_i_17">
+   <property name="text">
+    <string>Bài 7</string>
+   </property>
+  </action>
+  <action name="actionB_i_18">
+   <property name="text">
+    <string>Bài 8</string>
+   </property>
+  </action>
+  <action name="actionB_i_19">
+   <property name="text">
+    <string>Bài 9</string>
+   </property>
+  </action>
+  <action name="actionB_i_20">
+   <property name="text">
+    <string>Bài 10</string>
+   </property>
+  </action>
+  <action name="actionTop_10">
+   <property name="text">
+    <string>Top 10 </string>
+   </property>
+  </action>
+  <action name="actionChat_group">
+   <property name="text">
+    <string>Chat group</string>
+   </property>
+  </action>
+  <action name="actionT_c_gi">
+   <property name="text">
+    <string>Tác giả</string>
+   </property>
+  </action>
+  <action name="actionDonate">
+   <property name="text">
+    <string>Donate</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
